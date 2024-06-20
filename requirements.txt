@@ -1,8 +1,8 @@
 fastapi 
-tensorflow 
+tensorflow==2.15.0
 uvicorn 
 requests 
 pillow 
 python-dotenv
 numpy
-google-cloud-firestore
+firebase-admin

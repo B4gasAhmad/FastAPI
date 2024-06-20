@@ -1,0 +1,9 @@
+runtime: python39
+
+instance_class: F2
+
+entrypoint: uvicorn main:app --host 0.0.0.0 --port 8000
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: "path/to/your/credentials.json"
+  GOOGLE_API_KEY: "your_google_api_key"
