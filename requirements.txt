@@ -1,0 +1,8 @@
+fastapi 
+tensorflow 
+uvicorn 
+requests 
+pillow 
+python-dotenv
+numpy
+google-cloud-firestore
